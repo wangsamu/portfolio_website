@@ -41,18 +41,17 @@ const Contact = () => {
           <article className="contact__option">
             <BsLinkedin className=".contact__option-icon" />
             <h4>LinkedIn</h4>
-            <h5>@wangsamu</h5>
             <a href="https://www.linkedin.com/in/wangsamu/" target="_blank">
-              Send a message
+              Connect{" "}
             </a>
           </article>
           {/* Github */}
           <article className="contact__option">
             <BsGithub className=".contact__option-icon" />
             <h4>Github</h4>
-            <h5>@wangsamu</h5>
+            {/* <h5>@wangsamu</h5> */}
             <a href="https://github.com/wangsamu" target="_blank">
-              Send a message
+              Connect
             </a>
           </article>
           {/* Email */}
@@ -61,7 +60,7 @@ const Contact = () => {
             <h4>Email</h4>
             <h5>mail@wangsamu.com</h5>
             <a href="mailto:mail@wangsamu.com" target="_blank">
-              Send a message
+              Send an email
             </a>
           </article>
         </div>
