@@ -54,6 +54,13 @@ const Experience = () => {
                 {/* <small>Experienced</small> */}
               </div>
             </article>
+            <article className="experience__details">
+              <BsShieldFillCheck className="experience__details-icon" />
+              <div>
+                <h4>Jest</h4>
+                {/* <small>Experienced</small> */}
+              </div>
+            </article>
           </div>
         </div>
 
