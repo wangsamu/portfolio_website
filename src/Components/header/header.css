@@ -60,6 +60,10 @@ header {
 
 /* ================================= MEDIA QUERIES (MEDIUM SIZED DEVICES) ======================================= */
 @media screen and (max-width: 1024px) {
+  header {
+    height: 100vh;
+  }
+
   .container {
     height: 68vh;
   }
@@ -67,8 +71,16 @@ header {
 
 /* ================================= MEDIA QUERIES (SMALL SIZED DEVICES) ======================================= */
 @media screen and (max-width: 600px) {
+  header {
+    padding-top: 3rem;
+    height: 100vh;
+  }
   .container {
     height: 100vh;
+  }
+
+  .cta {
+    margin-top: 0.5rem;
   }
 
   .header__socials,
