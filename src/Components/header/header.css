@@ -60,15 +60,20 @@ header {
 
 /* ================================= MEDIA QUERIES (MEDIUM SIZED DEVICES) ======================================= */
 @media screen and (max-width: 1024px) {
-  /* .container {
+  header {
+    height: 75vh;
+  }
+
+  .container {
     height: 68vh;
-  } */
+  }
 }
 
 /* ================================= MEDIA QUERIES (SMALL SIZED DEVICES) ======================================= */
 @media screen and (max-width: 600px) {
   header {
     padding-top: 3rem;
+    height: 100vh;
   }
   .container {
     height: 100vh;
