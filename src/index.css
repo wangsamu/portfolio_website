@@ -133,7 +133,8 @@ img {
 /* ================================= MEDIA QUERIES (SMALL SIZED DEVICES) ======================================= */
 @media screen and (max-width: 600px) {
   .container {
-    width: var(--container-width-sm);
+    /* width: var(--container-width-sm); */
+    width: 100vw;
   }
 
   section > h2 {
