@@ -13,7 +13,7 @@ export const portfolioItems = [
     image: ARKANOID,
     title: "React Arkanoid",
     github: "https://github.com/wangsamu/react-arkanoid",
-    demo: "https://github.com/wangsamu/react-arkanoid",
+    demo: "https://arkanoid.wangsamu.com",
   },
   {
     id: 2,
