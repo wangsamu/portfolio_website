@@ -12,8 +12,9 @@ export const portfolioItems = [
     //insert portfolio image or gif here
     image: ARKANOID,
     title: "React Arkanoid",
-    description:
-      "🛠 In Progress ⚙\nA Classic Arkanoid Arcade game build with React, Redux and Typescript, featuring user authentication, user avatars of choice and highest score records.\nBackend build with Firebase.",
+    description: `🛠 In Progress ⚙
+    A Classic Arkanoid Arcade game build with React, Redux and Typescript, featuring user authentication, user avatars of choice and highest score records.
+    Backend build with Firebase.`,
     github: "https://github.com/wangsamu/react-arkanoid",
     demo: "https://arkanoid.wangsamu.com",
   },
@@ -21,8 +22,9 @@ export const portfolioItems = [
     id: 2,
     image: ECOMMERCE,
     title: "React e-commerce",
-    description:
-      "🛠 In Progress ⚙\nAn E-commerce platform build with React, Redux and Typescript, featuring user authentication and payment via Stripe API.\nBackend build with Firebase.",
+    description: `🛠 In Progress ⚙
+    An E-commerce platform build with React, Redux and Typescript, featuring user authentication and payment via Stripe API.
+    Backend build with Firebase.`,
     github: "https://github.com/wangsamu/ecommerce_react_firebase",
     demo: "https://ecommreactfirebase.netlify.app/",
   },
