@@ -12,6 +12,8 @@ export const portfolioItems = [
     //insert portfolio image or gif here
     image: ARKANOID,
     title: "React Arkanoid",
+    description:
+      "🛠 In Progress ⚙ \\n A Classic Arkanoid Arcade game build in React, Redux and Typescript, featuring user authentication, user avatars of choice and highest score records",
     github: "https://github.com/wangsamu/react-arkanoid",
     demo: "https://arkanoid.wangsamu.com",
   },
