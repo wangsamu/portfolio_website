@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const AboutContainer = styled.div`
   height: 100vh;
   width: 100vw;
-  padding: 3rem;
+  padding: 3rem 0 0 0;
   background-color: #ececec;
   color: black;
   display: flex;
