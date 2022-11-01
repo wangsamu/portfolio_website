@@ -1,28 +1,22 @@
-import React from "react";
-import CTA from "./CTA";
-import "./header.css";
-import ME from "../../assets/random_ME.png";
-import HeaderSocial from "./HeaderSocial";
+import React from 'react';
+import { HeaderContainer } from './HeaderStyled';
 
-const Header = () => {
+function Header() {
   return (
-    <header>
-      <div className="container header__container">
-        <h3>Hello, I'm</h3>
-        <h1>Samuel Li Wang</h1>
-        <h5>Web Developer</h5>
-        <CTA />
-        <HeaderSocial />
-        <div className="me">
-          <img src={ME} alt="my portrait photo" />
-        </div>
-
-        <a href="#contact" className="scroll__down">
-          Scroll Down
-        </a>
+    <HeaderContainer>
+      <div>
+        <p>the portfolio of</p>
+        <h1>{`SAMUEL 
+        LI WANG`}</h1>
+        <p>{'{'}</p>
+        <h5>{`Web Developer: 
+            Compliance Specialist: 
+            Law Graduate: 
+            Cook:`}</h5>
+        <p>{'}'}</p>
       </div>
-    </header>
+    </HeaderContainer>
   );
-};
+}
 
 export default Header;

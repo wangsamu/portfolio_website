@@ -1,13 +1,21 @@
 header {
   height: 100vh;
-  padding-top: 7rem;
-  overflow: hidden;
+  width: 100vw;
+  /* padding-top: 7rem;
+  overflow: hidden; */
 }
 
 .header__container {
   text-align: center;
   height: 100vh;
-  position: relative;
+  width: 100vw;
+  background-image: url('../../assets/bruce_contact3.jpg');
+  background-color: black;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
 }
 
 /* =========================== CTA =================================*/
@@ -28,7 +36,7 @@ header {
 }
 
 .header__socials::after {
-  content: "";
+  content: '';
   width: 1px;
   height: 3rem;
   background: var(--color-primary);
@@ -61,10 +69,12 @@ header {
 /* ================================= MEDIA QUERIES (MEDIUM SIZED DEVICES) ======================================= */
 @media screen and (max-width: 1024px) {
   header {
-    height: 98vh;
+    height: 100vw;
+    width: 100vw;
   }
   .container {
-    height: 68vh;
+    height: 100vw;
+    width: 100vw;
   }
 }
 
@@ -75,7 +85,8 @@ header {
     height: 100vh;
   }
   .container {
-    height: 100vh;
+    height: 100vw;
+    width: 100vw;
   }
 
   .cta {
