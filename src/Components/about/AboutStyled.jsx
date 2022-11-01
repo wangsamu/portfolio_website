@@ -17,17 +17,28 @@ const AboutItemsContainer = styled.div`
   display: flex;
   justify-content: space-around;
   margin-top: 5%;
+`;
 
-  > div {
-    height: 80%;
-    width: 30%;
-    border: 10px solid black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: grey;
+const AboutItem = styled.div`
+  height: 80%;
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0000001f;
+  padding: 1rem 1.8rem;
+
+  p {
+    font-size: 1.5rem;
+    text-align: center;
   }
 `;
 
-export { AboutContainer, AboutItemsContainer };
+const IconContainer = styled.div`
+  font-size: 5rem;
+`;
+
+export { AboutContainer, AboutItemsContainer, AboutItem, IconContainer };
