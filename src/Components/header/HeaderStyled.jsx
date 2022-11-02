@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import ME from '../../assets/bruce_contact3.jpg';
+import ME from '../../assets/portrait_bg_bright.jpg';
 
 const HeaderContainer = styled.div`
   height: 100vh;
@@ -17,8 +17,9 @@ const HeaderContainer = styled.div`
     flex-direction: column;
     position: absolute;
     top: 35%;
-    right: 20%;
+    left: 25%;
     white-space: pre-line;
+    text-align: right;
 
     > h1 {
       font-size: 3.5rem;
