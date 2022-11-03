@@ -10,7 +10,7 @@ function Header() {
         LI WANG`}</h1>
         <h5>{`Web Developer;
             Compliance Specialist:;
-            Law Graduate;`}</h5>
+            Law Graduate; `}</h5>
       </div>
     </HeaderContainer>
   );
