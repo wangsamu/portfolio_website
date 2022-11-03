@@ -10,40 +10,41 @@ import QUOTE_MACHINE from '../../assets/quote_machine.png';
 export const portfolioItems = [
   {
     id: 1,
-    //insert portfolio image or gif here
-    image: ARKANOID,
-    title: 'React Arkanoid',
-    description: `🛠 In Progress ⚙
-    A Classic Arkanoid Arcade game build with React, Redux and Typescript, featuring user authentication, user avatars of choice and highest score records.
-    Backend build with Firebase.`,
-    github: 'https://github.com/wangsamu/react-arkanoid',
-    demo: 'https://arkanoid.wangsamu.com',
-  },
-  {
-    id: 2,
     image: ECOMMERCE,
-    title: 'React e-commerce',
-    description: `🛠 In Progress ⚙
-    An E-commerce platform build with React, Redux and Typescript, featuring user authentication and payment via Stripe API.
-    Backend build with Firebase.`,
+    title: 'My online store',
+    description: `An online store build with React, Redux and Typescript.
+    User authentication with Firebase and payment via Stripe API.`,
     github: 'https://github.com/wangsamu/ecommerce_react_firebase',
     demo: 'https://ecommreactfirebase.netlify.app/',
   },
   {
-    id: 3,
+    id: 2,
     image: CHATAPP,
-    title: 'Chat Room App',
-    description: 'A real time chat room build with React and Firebase.',
+    title: 'Chat Room web app',
+    description:
+      'A real time chat room that anyone can join using Google OAuth via Firebase. Build with TypeScript, React and Styled-Components, using Firestore as database.',
     github: 'https://github.com/wangsamu/chatapp-react-firebase',
     demo: 'https://chatapp.wangsamu.com/',
   },
   {
-    id: 4,
+    id: 3,
     image: HALLOWEEN,
     title: 'Halloween Card Game',
     description: 'A memory game build with React and TypeScript.',
     github: 'https://github.com/wangsamu/card-matching-game',
     demo: 'https://halloween.wangsamu.com/',
+  },
+  {
+    id: 4,
+    //insert portfolio image or gif here
+    image: ARKANOID,
+    title: 'React Arkanoid',
+    description: `🛠 In Progress 🛠
+    A Classic Arkanoid arcade game clone build with React, Redux and Typescript.
+    Features include user authentication, user avatars and highest score board.
+    Backend build with Firebase.`,
+    github: 'https://github.com/wangsamu/react-arkanoid',
+    demo: 'https://arkanoid.wangsamu.com',
   },
   {
     id: 5,
