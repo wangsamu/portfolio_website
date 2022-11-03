@@ -5,7 +5,13 @@ import { RiMessengerLine } from 'react-icons/ri';
 import { BsGithub, BsLinkedin, BsWhatsapp } from 'react-icons/bs';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { ContactContainer } from './ContactStyled';
+import {
+  ContactContainer,
+  ContactForm,
+  ContactIconContainer,
+  ContactOption,
+  ContactOptionsContainer,
+} from './ContactStyled';
 
 const Contact = () => {
   const form = useRef();
@@ -36,36 +42,42 @@ const Contact = () => {
       <h2>Contact</h2>
 
       <ContactContainer>
-        <div className='contact__options'>
+        <ContactOptionsContainer>
           {/* LinkedIn */}
-          <article className='contact__option'>
-            <BsLinkedin className='.contact__option-icon' />
+          <ContactOption>
+            <ContactIconContainer>
+              <BsLinkedin />
+            </ContactIconContainer>
             <h4>LinkedIn</h4>
             <a href='https://www.linkedin.com/in/wangsamu/' target='_blank'>
               Connect{' '}
             </a>
-          </article>
+          </ContactOption>
           {/* Github */}
-          <article className='contact__option'>
-            <BsGithub className='.contact__option-icon' />
+          <ContactOption>
+            <ContactIconContainer>
+              <BsGithub />
+            </ContactIconContainer>
             <h4>Github</h4>
             {/* <h5>@wangsamu</h5> */}
             <a href='https://github.com/wangsamu' target='_blank'>
               Connect
             </a>
-          </article>
+          </ContactOption>
           {/* Email */}
-          <article className='contact__option'>
-            <HiOutlineMail className='.contact__option-icon' />
+          <ContactOption>
+            <ContactIconContainer>
+              <HiOutlineMail />
+            </ContactIconContainer>
             <h4>Email</h4>
             <h5>mail@wangsamu.com</h5>
             <a href='mailto:mail@wangsamu.com' target='_blank'>
               Send an email
             </a>
-          </article>
-        </div>
+          </ContactOption>
+        </ContactOptionsContainer>
 
-        <form ref={form} onSubmit={sendEmail}>
+        <ContactForm ref={form} onSubmit={sendEmail}>
           <input type='text' name='name' placeholder='Your Name' required />
           <input type='email' name='email' placeholder='Your Email' required />
           <textarea
@@ -77,7 +89,7 @@ const Contact = () => {
           <button type='submit' className='btn btn-primary'>
             Send Message
           </button>
-        </form>
+        </ContactForm>
       </ContactContainer>
     </section>
   );
