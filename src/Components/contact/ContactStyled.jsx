@@ -1,6 +1,14 @@
 import styled from 'styled-components';
 
 const ContactContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+`;
+
+const ContactFormContainer = styled.div`
   width: 58%;
   display: grid;
   grid-template-columns: 30% 58%;
@@ -14,7 +22,7 @@ const ContactOptionsContainer = styled.div`
 `;
 
 const ContactOption = styled.div`
-  background: var(--color-bg-variant);
+  background: black;
   padding: 1.2rem;
   border-radius: 1.2rem;
   text-align: center;
@@ -23,19 +31,29 @@ const ContactOption = styled.div`
 
   &:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: black;
+    color: black;
+
+    a {
+      color: black;
+    }
   }
 
   > a {
     font-size: 0.8rem;
     margin-top: 0.7;
     display: inline-block;
+    color: white;
   }
 `;
 
 const ContactIconContainer = styled.div`
   font-size: 2.4rem;
   margin-bottom: 0.5rem;
+
+  /* &:hover {
+    color: black;
+  } */
 `;
 
 const ContactForm = styled.form`
@@ -49,14 +67,15 @@ const ContactForm = styled.form`
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid var(--color-primary-variant);
+    border: 2px solid black;
     resize: none;
-    color: var(--color-white);
+    color: black;
   }
 `;
 
 export {
   ContactContainer,
+  ContactFormContainer,
   ContactOptionsContainer,
   ContactOption,
   ContactIconContainer,
