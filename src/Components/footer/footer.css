@@ -1,16 +1,17 @@
 footer {
-  background: white;
+  background: black;
+  color: white;
   padding: 3rem 0;
   text-align: center;
   font-size: 0.9rem;
-  margin-top: 7rem;
 }
 
 footer a {
-  color: var(--color-bg);
+  color: white;
 }
 
 .footer__logo {
+  color: white;
   font-size: 2rem;
   font-weight: 300;
   margin-bottom: 2rem;
@@ -33,8 +34,8 @@ footer a {
 }
 
 .footer__socials a {
-  background: var(--color-bg);
-  color: var(--color-white);
+  background: white;
+  color: white;
   display: flex;
   padding: 0.8rem;
   border-radius: 0.7rem;
@@ -43,17 +44,21 @@ footer a {
 
 .footer__socials a:hover {
   background: transparent;
-  color: var(--color-bg);
-  border-color: var(--color-bg);
+  color: white;
+  border-color: white;
 }
 
 .footer__copyrights {
   margin-bottom: 4rem;
-  color: var(--color-bg);
+  color: white;
 }
 
 /* ================================= MEDIA QUERIES (SMALL SIZED DEVICES) ======================================= */
 @media screen and (max-width: 600px) {
+  footer {
+    margin-top: 0;
+  }
+
   .footer__permalinks li {
     flex-direction: column;
     gap: 1.5rem;
