@@ -39,67 +39,59 @@ const Contact = () => {
   };
 
   return (
-    <section id='contact'>
+    <ContactContainer>
       <h2>Contact</h2>
+      <ContactFormContainer>
+        <ContactOptionsContainer>
+          {/* LinkedIn */}
+          <ContactOption>
+            <ContactIconContainer>
+              <BsLinkedin />
+            </ContactIconContainer>
+            <h4>LinkedIn</h4>
+            <a href='https://www.linkedin.com/in/wangsamu/' target='_blank'>
+              Connect{' '}
+            </a>
+          </ContactOption>
+          {/* Github */}
+          <ContactOption>
+            <ContactIconContainer>
+              <BsGithub />
+            </ContactIconContainer>
+            <h4>Github</h4>
+            {/* <h5>@wangsamu</h5> */}
+            <a href='https://github.com/wangsamu' target='_blank'>
+              Connect
+            </a>
+          </ContactOption>
+          {/* Email */}
+          <ContactOption>
+            <ContactIconContainer>
+              <HiOutlineMail />
+            </ContactIconContainer>
+            <h4>Email</h4>
+            <h5>mail@wangsamu.com</h5>
+            <a href='mailto:mail@wangsamu.com' target='_blank'>
+              Send an email
+            </a>
+          </ContactOption>
+        </ContactOptionsContainer>
 
-      <ContactContainer>
-        <ContactFormContainer>
-          <ContactOptionsContainer>
-            {/* LinkedIn */}
-            <ContactOption>
-              <ContactIconContainer>
-                <BsLinkedin />
-              </ContactIconContainer>
-              <h4>LinkedIn</h4>
-              <a href='https://www.linkedin.com/in/wangsamu/' target='_blank'>
-                Connect{' '}
-              </a>
-            </ContactOption>
-            {/* Github */}
-            <ContactOption>
-              <ContactIconContainer>
-                <BsGithub />
-              </ContactIconContainer>
-              <h4>Github</h4>
-              {/* <h5>@wangsamu</h5> */}
-              <a href='https://github.com/wangsamu' target='_blank'>
-                Connect
-              </a>
-            </ContactOption>
-            {/* Email */}
-            <ContactOption>
-              <ContactIconContainer>
-                <HiOutlineMail />
-              </ContactIconContainer>
-              <h4>Email</h4>
-              <h5>mail@wangsamu.com</h5>
-              <a href='mailto:mail@wangsamu.com' target='_blank'>
-                Send an email
-              </a>
-            </ContactOption>
-          </ContactOptionsContainer>
-
-          <ContactForm ref={form} onSubmit={sendEmail}>
-            <input type='text' name='name' placeholder='Your Name' required />
-            <input
-              type='email'
-              name='email'
-              placeholder='Your Email'
-              required
-            />
-            <textarea
-              name='message'
-              rows='7'
-              placeholder='Your Mesasage'
-              required
-            ></textarea>
-            <button type='submit' className='btn btn-primary'>
-              Send Message
-            </button>
-          </ContactForm>
-        </ContactFormContainer>
-      </ContactContainer>
-    </section>
+        <ContactForm ref={form} onSubmit={sendEmail}>
+          <input type='text' name='name' placeholder='Your Name' required />
+          <input type='email' name='email' placeholder='Your Email' required />
+          <textarea
+            name='message'
+            rows='7'
+            placeholder='Your Mesasage'
+            required
+          ></textarea>
+          <button type='submit' className='btn btn-primary'>
+            Send Message
+          </button>
+        </ContactForm>
+      </ContactFormContainer>
+    </ContactContainer>
   );
 };
 

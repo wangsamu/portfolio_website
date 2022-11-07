@@ -6,6 +6,14 @@ const ContactContainer = styled.div`
   align-items: center;
   justify-content: center;
   background-color: white;
+  height: 100vh;
+  width: 100vw;
+
+  & h2 {
+    color: black;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
 `;
 
 const ContactFormContainer = styled.div`
@@ -59,6 +67,7 @@ const ContactIconContainer = styled.div`
 const ContactForm = styled.form`
   display: flex;
   flex-direction: column;
+  /* justify-content: center; */
   gap: 1.2rem;
 
   > input,
@@ -70,6 +79,10 @@ const ContactForm = styled.form`
     border: 2px solid black;
     resize: none;
     color: black;
+  }
+
+  & button {
+    align-self: flex-end;
   }
 `;
 
