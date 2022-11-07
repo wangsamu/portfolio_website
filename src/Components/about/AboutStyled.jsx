@@ -3,12 +3,20 @@ import styled from 'styled-components';
 const AboutContainer = styled.div`
   height: 100vh;
   width: 100vw;
-  padding: 3rem 0 0 0;
+  padding-top: 3rem;
   background-color: #ececec;
   color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media screen and (max-width: 1024px) {
+  }
+
+  @media screen and (max-width: 600px) {
+    height: 100%;
+    padding-top: 1.2rem;
+  }
 `;
 
 const AboutItemsContainer = styled.div`
@@ -17,6 +25,13 @@ const AboutItemsContainer = styled.div`
   display: flex;
   justify-content: space-around;
   margin-top: 5%;
+
+  @media screen and (max-width: 1024px) {
+  }
+
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+  }
 `;
 
 const AboutItem = styled.div`
@@ -34,6 +49,16 @@ const AboutItem = styled.div`
   p {
     font-size: 1.5rem;
     text-align: center;
+  }
+
+  @media screen and (max-width: 1024px) {
+  }
+
+  @media screen and (max-width: 600px) {
+    height: 100%;
+    width: calc(100vw - 1.5rem);
+    margin: 0.75rem;
+    padding: 0.75rem 0.75rem 1.25rem 0.75rem;
   }
 `;
 
