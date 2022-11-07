@@ -20,9 +20,9 @@ function About() {
           </IconContainer>
 
           <p>
-            As a law graduate, I have worked as a compliance specialist in
-            Amazon. I was fascinated by the software engineering teams and
-            decided to make become a developer myself.
+            As a law and business graduate, I have worked as a compliance
+            specialist in Amazon. I was fascinated by the software engineering
+            teams and decided to make become a developer myself.
           </p>
         </AboutItem>
         <AboutItem>
@@ -40,14 +40,13 @@ function About() {
             <TbScubaMask />
           </IconContainer>
           <p>
-            Aside from programming, my interests are wide with formal
-            qualifications in Law and Business Management. Traveling and cooking
-            make me feel alive. I am also a keen hiker and SCUBA diver.
+            Away from keyboard, traveling and cooking make me feel awesome. I
+            also enjoy hiking and SCUBA diving. I love languages too, currently
+            I speak 5 languages at a decent level.
           </p>
         </AboutItem>
       </AboutItemsContainer>
     </AboutContainer>
   );
 }
-
 export default About;
