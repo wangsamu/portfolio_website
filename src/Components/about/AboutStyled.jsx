@@ -55,7 +55,7 @@ const AboutItem = styled.div`
   }
 
   @media screen and (max-width: 600px) {
-    height: 100%;
+    height: fit-content;
     width: calc(100vw - 1.5rem);
     margin: 0.75rem;
     padding: 0.75rem 0.75rem 1.25rem 0.75rem;

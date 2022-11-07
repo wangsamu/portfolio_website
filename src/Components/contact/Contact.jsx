@@ -39,8 +39,8 @@ const Contact = () => {
   };
 
   return (
-    <ContactContainer>
-      <h2>Contact</h2>
+    <ContactContainer id='contact'>
+      <h2>- Contact -</h2>
       <ContactFormContainer>
         <ContactOptionsContainer>
           {/* LinkedIn */}

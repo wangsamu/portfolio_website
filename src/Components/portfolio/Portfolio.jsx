@@ -1,13 +1,14 @@
 import React from 'react';
 import './portfolio.css';
 import { portfolioItems } from './portfolioItems';
+import { PortfolioContainer, PortfolioItemsContainer } from './PortfolioStyled';
 
 const Portfolio = () => {
   return (
-    <section id='portfolio'>
-      <h2>My Projects</h2>
+    <PortfolioContainer id='portfolio'>
+      <h1>- My Projects -</h1>
 
-      <div className='container portfolio__container'>
+      <PortfolioItemsContainer>
         {portfolioItems.map(
           ({ id, image, title, description, github, demo }) => {
             return (
@@ -29,8 +30,8 @@ const Portfolio = () => {
             );
           }
         )}
-      </div>
-    </section>
+      </PortfolioItemsContainer>
+    </PortfolioContainer>
   );
 };
 

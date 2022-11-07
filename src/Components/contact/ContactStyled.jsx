@@ -14,6 +14,15 @@ const ContactContainer = styled.div`
     font-size: 3rem;
     margin-bottom: 2rem;
   }
+
+  @media screen and (max-width: 600px) {
+    height: 100%;
+    padding: 2rem 1rem 0 1rem;
+
+    & h1 {
+      font-size: 2.25rem;
+    }
+  }
 `;
 
 const ContactFormContainer = styled.div`
@@ -21,12 +30,23 @@ const ContactFormContainer = styled.div`
   display: grid;
   grid-template-columns: 30% 58%;
   gap: 12%;
+
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 const ContactOptionsContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
+
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.25rem;
+  }
 `;
 
 const ContactOption = styled.div`
@@ -70,7 +90,7 @@ const ContactForm = styled.form`
   /* justify-content: center; */
   gap: 1.2rem;
 
-  > input,
+  & input,
   textarea {
     width: 100%;
     padding: 1.5rem;
@@ -83,6 +103,10 @@ const ContactForm = styled.form`
 
   & button {
     align-self: flex-end;
+  }
+
+  @media screen and (max-width: 600px) {
+    display: none;
   }
 `;
 
