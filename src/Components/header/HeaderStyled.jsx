@@ -30,6 +30,26 @@ const HeaderContainer = styled.div`
       margin-left: 2rem;
     }
   }
+
+  @media screen and (max-width: 600px) {
+    background-position: 80% center;
+
+    > div {
+      top: 25%;
+      left: 5%;
+      text-align: right;
+
+      > h1 {
+        font-size: 2.5rem;
+        margin: 2rem 0 2rem 0;
+      }
+
+      > h5 {
+        font-size: 0.75rem;
+        margin-left: 1rem;
+      }
+    }
+  }
 `;
 
 export { HeaderContainer };
