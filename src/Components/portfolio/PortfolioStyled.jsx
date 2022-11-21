@@ -38,6 +38,26 @@ const PortfolioItemsContainer = styled.div`
 `;
 
 const PortfolioItem = styled.div`
+  background: rgba(236, 232, 232, 0.818);
+  color: black;
+  padding: 1.3rem;
+  border-radius: 1.2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &:hover {
+    border: 2px solid white;
+    color: white;
+    background: transparent;
+  }
+
+  && p {
+    text-align: left;
+  }
+
   @media screen and (max-width: 600px) {
     height: fit-content;
     width: calc(100vw - 1.5rem);
@@ -46,4 +66,4 @@ const PortfolioItem = styled.div`
   }
 `;
 
-export { PortfolioContainer, PortfolioItemsContainer };
+export { PortfolioContainer, PortfolioItemsContainer, PortfolioItem };

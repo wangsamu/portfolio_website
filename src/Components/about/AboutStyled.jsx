@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 const AboutContainer = styled.div`
+  min-height: 100%;
   height: 100vh;
   width: 100vw;
   padding-top: 3rem;
@@ -45,13 +46,21 @@ const AboutItem = styled.div`
   align-items: center;
   background-color: #0000001f;
   padding: 1rem 1.8rem;
+  overflow: hidden;
 
   p {
+    text-size-adjust: auto;
     font-size: 1.5rem;
     text-align: center;
   }
 
   @media screen and (max-width: 1024px) {
+    padding: 0.5rem 0.85rem;
+
+    p {
+      font-size: 1rem;
+      text-align: center;
+    }
   }
 
   @media screen and (max-width: 600px) {
