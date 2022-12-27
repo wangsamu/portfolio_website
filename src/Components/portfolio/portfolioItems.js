@@ -28,14 +28,14 @@ export const portfolioItems = [
     github: 'https://github.com/wangsamu/chatapp-react-firebase',
     demo: 'https://chatapp.wangsamu.com/',
   },
-  {
-    id: 3,
-    image: HALLOWEEN,
-    title: 'Card Matching Game',
-    description: 'A memory game build with React and TypeScript.',
-    github: 'https://github.com/wangsamu/card-matching-game',
-    demo: 'https://halloween.wangsamu.com/',
-  },
+  // {
+  //   id: 3,
+  //   image: HALLOWEEN,
+  //   title: 'Card Matching Game',
+  //   description: 'A memory game build with React and TypeScript.',
+  //   github: 'https://github.com/wangsamu/card-matching-game',
+  //   demo: 'https://halloween.wangsamu.com/',
+  // },
   // {
   //   id: 4,
   //   //insert portfolio image or gif here
