@@ -15,8 +15,8 @@ export const portfolioItems = [
     description: `An e-commerce website build with React, Redux and Typescript.
     User authentication is done via Firebase and the database is Firestore. 
     It also handles payment via Stripe API.`,
-    github: 'https://github.com/wangsamu/ecommerce_react_firebase',
-    demo: 'https://ecommreactfirebase.netlify.app/',
+    github: 'https://github.com/wangsamu/dog-owners-gift-shop',
+    demo: 'https://dogo-gifts.netlify.app',
   },
   {
     id: 2,
