@@ -15,8 +15,8 @@ export const portfolioItems = [
     description: `An e-commerce website build with React, Redux and Typescript.
     User authentication is done via Firebase and the database is Firestore. 
     It also handles payment via Stripe API.`,
-    github: 'https://github.com/wangsamu/dog-owners-gift-shop',
-    demo: 'https://dogo-gifts.netlify.app',
+    github: 'https://github.com/wangsamu/ecommerce_react_firebase',
+    demo: 'https://ecommreactfirebase.netlify.app/',
   },
   {
     id: 2,
@@ -56,20 +56,20 @@ export const portfolioItems = [
   //   github: 'https://codepen.io/wangsamu/pen/MWVZXVO',
   //   demo: 'https://codepen.io/wangsamu/full/MWVZXVO',
   // },
-  // {
-  //   id: 6,
-  //   image: QUOTE_MACHINE,
-  //   title: 'Random Quote Machine',
-  //   description: 'A random code generator build with React.',
-  //   github: 'https://codepen.io/wangsamu/pen/rNdqxew',
-  //   demo: 'https://codepen.io/wangsamu/full/rNdqxew',
-  // },
-  // {
-  //   id: 7,
-  //   image: CALCULATOR,
-  //   title: 'React Calculator',
-  //   description: 'A simple calculator build with React and vanilla JavaScript.',
-  //   github: 'https://codepen.io/wangsamu/pen/QWmPOwN',
-  //   demo: 'https://codepen.io/wangsamu/full/QWmPOwN',
-  // },
+  {
+    id: 6,
+    image: QUOTE_MACHINE,
+    title: 'Random Quote Machine',
+    description: 'A random code generator build with React.',
+    github: 'https://codepen.io/wangsamu/pen/rNdqxew',
+    demo: 'https://codepen.io/wangsamu/full/rNdqxew',
+  },
+  {
+    id: 7,
+    image: CALCULATOR,
+    title: 'React Calculator',
+    description: 'A simple calculator build with React and vanilla JavaScript.',
+    github: 'https://codepen.io/wangsamu/pen/QWmPOwN',
+    demo: 'https://codepen.io/wangsamu/full/QWmPOwN',
+  },
 ];
