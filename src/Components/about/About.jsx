@@ -20,7 +20,7 @@ function About() {
           </IconContainer>
 
           <p>
-            As a law and business graduate, I have worked as a compliance
+            I am a law and business graduate, I have worked as a compliance
             specialist in Amazon. I was fascinated by the software engineering
             teams and decided to make become a developer myself.
           </p>
@@ -30,7 +30,7 @@ function About() {
             <HiCode />
           </IconContainer>
           <p>
-            I'm a passionate developer with a strong desire to learn and improve
+            I have a strong desire to learn and improve
             constantly. I firmly believe in contious learning and I am always
             open to new technologies.
           </p>
@@ -40,9 +40,8 @@ function About() {
             <TbScubaMask />
           </IconContainer>
           <p>
-            Away from keyboard, traveling and cooking make me feel awesome. I
-            also enjoy hiking and SCUBA diving. I love languages too, currently
-            I speak 5 languages at a decent level.
+            Away from keyboard, traveling and cooking make me feel good. I am a language nerd, currently
+            I speak 4 and I am learning German.
           </p>
         </AboutItem>
       </AboutItemsContainer>
